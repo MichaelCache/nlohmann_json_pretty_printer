@@ -28,11 +28,13 @@ basic gdb can not show nlohmann json object well. For example, parse a json file
 ```
 
 you will see json object in gdb like this
-![origin](./pic/origin.png)
+<img src="./pic/origin.png" width="400">
+
 it's not friendly informed.
 
 By use this pretty printer, you can see json object in gdb like this
-![pretty](./pic/pretty.png)
+<img src="./pic/pretty.png" width="300">
+
 it's more readable.
 
 ## How to use
